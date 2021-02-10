@@ -1,0 +1,30 @@
+{
+  "name": "composable-app",
+  "version": "1.0.0",
+  "description": "Compare query performance between a monolithic API and multiple modular/autonomous bounded context APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http/github/PaulGilchrist"
+  },
+  "keywords": [
+    "composable",
+    "api"
+  ],
+  "author": "Paul Gilchrist",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/minimist": "^1.2.1",
+    "nodemon": "^2.0.7"
+  }
+}
